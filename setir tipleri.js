@@ -1,0 +1,12 @@
+let text = "  Salam Developia  ";
+console.log(text.split(" ")); 
+console.log(text.charAt(2)); 
+console.log(text.trim());  
+console.log(text.toLowerCase()); 
+console.log(text.toUpperCase()); 
+console.log(text.replace("Developia", "Bakucode"));
+console.log(text.substring(2, 7)); 
+console.log(text.slice(2, 7));
+console.log(text.lastIndexOf("a")); 
+console.log(text.indexOf("a"));
+console.log(text.length); 
