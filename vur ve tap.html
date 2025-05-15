@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-cı Rəqəm Tapma</title>
+</head>
+<body>
+    <script>
+        let a = 12345;
+        let b = 98765;
+        let hasil = a * b;
+        let hasil2 = hasil.toString();
+
+        if (hasil2.length >= 6) {
+            let reqem = hasil2.charAt(hasil2.length - 6);
+            console.log("Sağdan 6-cı rəqəm: " + reqem);
+        } else {
+            console.log("Hasilin 6-cı rəqəmi yoxdur");
+        }
+    </script>
+</body>
+</html>
