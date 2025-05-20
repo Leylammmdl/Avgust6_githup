@@ -1,0 +1,5 @@
+let x= prompt("eded daxil et");
+x= Number(x)
+if (x>20) {
+    console.log(x);   
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Yaş yoxlaması</title>
+</head>
+<body>
+  <h1>Saytımıza xoş gəlmisiniz!</h1>
+</body>
+  <script>
+    function yoxla() {
+      let yas = prompt("Zəhmət olmasa yaşınızı daxil edin:");
+
+      if (yas === null) {
+        alert("Əməliyyat ləğv olundu.");
+      } else if (isNaN(yas) || yas.trim() === "") {
+        alert("Zəhmət olmasa düzgün yaş daxil edin.");
+      } else if (yas < 18) {
+        alert("Access denied");
+      } else {
+        alert("Access granted");
+      }
+    }
+    window.onload = yoxla;
+  </script>
+</html>
